@@ -34,7 +34,7 @@ db.mongoose
   });
 
 // simple route
-app.get("/user/list", (req, res) => {
+app.get("/", (req, res) => {
   res.json({ message: "NIGGER" });
 });
 
