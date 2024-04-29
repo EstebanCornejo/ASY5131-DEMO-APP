@@ -34,8 +34,8 @@ db.mongoose
   });
 
 // simple route
-app.get("/", (req, res) => {
-  res.json({ message: "Welcome to demo application." });
+app.get("/user/list", (req, res) => {
+  res.json({ message: "NIGGER" });
 });
 
 require("./app/routes/turorial.routes")(app);
